@@ -3,7 +3,8 @@ package up.edu.br.models;
 public class FuncionarioClt extends Funcionario{
     private double salarioBase;
     private double gratificacao;
-    public FuncionarioCLT(String nome, int matricula, double salarioBase, double gratificacao){
+    
+    public FuncionarioClt(String nome, int matricula, double salarioBase, double gratificacao){
         super(nome, matricula);
         this.salarioBase = salarioBase;
         this.gratificacao = gratificacao;
